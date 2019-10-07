@@ -1,8 +1,8 @@
-# variable "region" {}
-# variable "vpc_id" {}
-# variable "tag_name" {}
-# variable "env_name" {}
+variable "region" {}
+variable "vpc_id" {}
+variable "tag_name" {}
+variable "env_name" {}
 
-# provider "aws" {
-#   region = "${var.region}"
-# }
+provider "aws" {
+  region = "${var.region}"
+}
